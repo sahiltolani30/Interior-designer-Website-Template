@@ -1,10 +1,34 @@
-# FORMA — Premium Architecture & Interior Design Template
+<div align="center">
+  <h1>FORMA</h1>
+  <p>Premium Architecture & Interior Design Template</p>
+  
+  [![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js&logoColor=white)](https://nextjs.org/)
+  [![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+  [![GSAP](https://img.shields.io/badge/GSAP-Animation-88CE02?logo=greensock&logoColor=white)](https://gsap.com/)
+  [![Lenis](https://img.shields.io/badge/Lenis-Smooth_Scroll-ffaaaa)](https://lenis.studiofreight.com/)
+  [![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-000000?logo=vercel&logoColor=white)](https://interior-designer-website-template.vercel.app/)
+
+  <br />
+  <a href="https://interior-designer-website-template.vercel.app/"><strong>🔴 View Live Demo</strong></a>
+  <br />
+  <br />
+</div>
 
 ![Forma Preview](https://images.unsplash.com/photo-1600210491369-e753d80a41f3?auto=format&fit=crop&q=80&w=1200)
 
-**🔴 Live Demo: [https://interior-designer-website-template.vercel.app/](https://interior-designer-website-template.vercel.app/)**
-
 **FORMA** is an ultra-premium, editorial-style web template built for high-end architecture studios, interior designers, and creative agencies. It combines the power of Next.js 14 with cinematic motion design (GSAP) and buttery smooth scrolling (Lenis) to create a web experience that feels less like a website and more like a high-end magazine.
+
+---
+
+## 🤖 Vibecoding & AI-Driven Development
+
+This repository was generated using an advanced AI workflow known as **Vibecoding**. Rather than writing raw code, the repository was built by orchestrating a sequence of highly constrained design prompts and specialized AI agent "Skills".
+
+👉 **[Read the full Vibecoding Guide & Prompts used here](./docs/vibecoding.md)**
+
+If you want to understand how to force AI to write Awwwards-winning level code instead of generic templates, check out the `.agent/` directory to see the exact context skills we injected into the LLM.
+
+---
 
 ## ✨ Features
 
@@ -22,14 +46,13 @@
 - **Styling:** [Tailwind CSS](https://tailwindcss.com/)
 - **Animation:** [GSAP](https://gsap.com/) (GreenSock Animation Platform)
 - **Smooth Scroll:** [Lenis](https://lenis.studiofreight.com/)
-- **Icons:** Custom SVG / Lucide React
 
 ## 🚀 Getting Started
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/forma.git
-   cd forma
+   git clone https://github.com/sahiltolani30/Interior-designer-Website-Template.git
+   cd Interior-designer-Website-Template
    ```
 
 2. **Install dependencies**
@@ -48,13 +71,6 @@
 
 4. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000) to see the application running.
-
-## 📁 Project Structure
-
-- `/app`: Next.js 14 App Router (Pages, Layouts, Globals)
-- `/components`: Reusable UI components (Hero, Nav, Footer, Projects, Materials)
-- `/lib`: Utility functions and GSAP plugin registration
-- `/public`: Static assets (fonts, icons, raw images)
 
 ## 🎨 Design Philosophy
 
