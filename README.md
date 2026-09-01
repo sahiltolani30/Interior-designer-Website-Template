@@ -2,6 +2,8 @@
 
 ![Forma Preview](https://images.unsplash.com/photo-1600210491369-e753d80a41f3?auto=format&fit=crop&q=80&w=1200)
 
+**🔴 Live Demo: [https://interior-designer-website-template.vercel.app/](https://interior-designer-website-template.vercel.app/)**
+
 **FORMA** is an ultra-premium, editorial-style web template built for high-end architecture studios, interior designers, and creative agencies. It combines the power of Next.js 14 with cinematic motion design (GSAP) and buttery smooth scrolling (Lenis) to create a web experience that feels less like a website and more like a high-end magazine.
 
 ## ✨ Features
