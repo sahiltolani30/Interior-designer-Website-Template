@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# FORMA — Premium Architecture & Interior Design Template
 
-## Getting Started
+![Forma Preview](https://images.unsplash.com/photo-1600210491369-e753d80a41f3?auto=format&fit=crop&q=80&w=1200)
 
-First, run the development server:
+**FORMA** is an ultra-premium, editorial-style web template built for high-end architecture studios, interior designers, and creative agencies. It combines the power of Next.js 14 with cinematic motion design (GSAP) and buttery smooth scrolling (Lenis) to create a web experience that feels less like a website and more like a high-end magazine.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 🎥 **Cinematic Motion Design:** Built heavily with `GSAP` and `ScrollTrigger` for advanced stagger reveals, text splitting, and scroll-linked element reveals.
+- 🌊 **Smooth Scrolling:** Integrated with `@studio-freight/lenis` to ensure a frictionless, high-agency scroll experience on all devices.
+- 🎯 **Magnetic Custom Cursor:** A sleek, custom SVG cursor that tracks the mouse and magnetically snaps to interactive elements, complete with dynamic state changes (e.g., expanding into a "CLICK" cue on hover).
+- 🖼️ **Asymmetric Masonry Grids:** Beautifully engineered project showcases featuring scroll-linked parallax imagery.
+- 🎭 **Infinite Marquees:** Hardware-accelerated CSS marquees for showcasing materials and client lists.
+- 📱 **Fully Responsive:** Meticulously crafted with Tailwind CSS to look stunning across desktop, tablet, and mobile.
+- ⚡ **Next.js App Router:** Built on the cutting edge of React and Next.js 14 for optimal performance and SEO.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Framework:** [Next.js 14](https://nextjs.org/) (App Router)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Animation:** [GSAP](https://gsap.com/) (GreenSock Animation Platform)
+- **Smooth Scroll:** [Lenis](https://lenis.studiofreight.com/)
+- **Icons:** Custom SVG / Lucide React
 
-## Learn More
+## 🚀 Getting Started
 
-To learn more about Next.js, take a look at the following resources:
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/forma.git
+   cd forma
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   yarn install
+   # or
+   pnpm install
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. **Run the development server**
+   ```bash
+   npm run dev
+   ```
 
-## Deploy on Vercel
+4. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000) to see the application running.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📁 Project Structure
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `/app`: Next.js 14 App Router (Pages, Layouts, Globals)
+- `/components`: Reusable UI components (Hero, Nav, Footer, Projects, Materials)
+- `/lib`: Utility functions and GSAP plugin registration
+- `/public`: Static assets (fonts, icons, raw images)
+
+## 🎨 Design Philosophy
+
+This project was built rejecting generic UI patterns. It embraces:
+- **Typography:** High contrast between editorial serifs (`DM Serif Display`) and clean humanist sans-serifs (`Neue Montreal`/`Inter`).
+- **Space:** Vast, intentional whitespace to let imagery breathe.
+- **Micro-interactions:** Every hover and click is designed to feel substantial and considered.
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE). Feel free to use it for your own portfolio, agency, or commercial work!
