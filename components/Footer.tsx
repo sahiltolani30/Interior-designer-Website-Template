@@ -58,8 +58,11 @@ export function Footer() {
       </div>
 
       {/* Bottom section */}
-      <div className="flex flex-col md:flex-row justify-between items-end gap-6 font-sans text-[0.65rem] uppercase tracking-[0.2em] text-white/40">
-        <div>© {new Date().getFullYear()} FORMA STUDIO</div>
+      <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-6 font-sans text-[0.65rem] uppercase tracking-[0.2em] text-white/40">
+        <div className="flex flex-col gap-2">
+          <span>© {new Date().getFullYear()} FORMA STUDIO</span>
+          <span className="text-white/30">Created by Social Driller</span>
+        </div>
         <div className="flex gap-6">
           <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
           <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
